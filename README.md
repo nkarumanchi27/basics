@@ -9,9 +9,9 @@ YAML has two basic structures.
 
 YAML Maps: Maps lets you associate Key/name and value pairs.
 
-----
-apiVersion : v1
-kind : Pod
---------
+---
+ apiVersion : v1
+ kind : Pod
+---
 
 
