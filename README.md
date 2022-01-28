@@ -79,12 +79,13 @@ fruits:
  
  here, we can see a list of container obhects each of which contains a name, image and a list of ports.
  
- ## summary: 
- . YAML Maps are a groupd of Name/key - value pairs.
- . lists are individual items.
- . maps of maps
- . maps of lists
- . lists of lists
- . lists of maps
+ ## Summary: 
+ YAML Maps are a groupd of Name/key - value pairs.
+ lists are individual items.
+ maps of maps
+ maps of lists
+ lists of lists
+ lists of maps
+
 **Note: Github markup reference link**
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
