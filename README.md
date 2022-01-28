@@ -81,11 +81,11 @@ fruits:
  
  ## Summary: 
  YAML Maps are a groupd of Name/key - value pairs.
- lists are individual items.
- maps of maps
- maps of lists
- lists of lists
- lists of maps
+ - lists are individual items.
+ - maps of maps
+ -  maps of lists
+ - lists of lists
+ - lists of maps
 
 **Note: Github markup reference link**
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
