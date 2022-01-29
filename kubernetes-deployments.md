@@ -21,3 +21,9 @@ spec:
       ports:
         - containerPort: 88
 ```
+
+_Here, we started of with API version which is v1 for POSs but might be something else for other k8s resources._
+_ Kind represents k8s resources, which could be a POD, Deployment, Job, Service, etc._
+
+
+
