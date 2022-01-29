@@ -72,3 +72,18 @@ spec:
 ---
 ```
       
+- here *API version*: specifies that we want a deployment
+- as part of the pod spec *replicas*, we are saying what ever the pods we deploy we want two replicas.
+- *selector* specifies the pods effected by this deploument, we are selecting pods by their label.
+- *templates* parameter specifies the 2 replicas of what , 
+### k8s commands to create a deployment from above deployment.yaml file.
+```
+> kubectl create -f deployment.yaml
+> kubectl get deployments
+> kubectl describe deployment rss-site
+a simple way to updating the properties of a deployment involves editing the yaml file used for the deployment. to do this, we always want to use *apply* command instead of *create*.
+> kubectl apply -f deployment.yaml
+some of the other options are
+> kubectl edit deployment.v1.apps/rss-site
+> kubectl scale deployment.vs.apps/rss-site --replicas=5
+> kubectl autoscale deployment.v1.apps/rss-site --min=3 --max=20 --cpu-percent=60
